@@ -1,0 +1,16 @@
+num_classes: 4
+
+### should map path of file to its label. labels start with 0.
+filePath2label: 'data/train_labels_filter.csv'
+
+dir_malware_files: '/media/user/New Volume/train'
+dir_benign_dll: '/media/user/New Volume/benign'
+dir_benign_bytes: 'data/benign_bytes'
+
+show_matrix: True
+train: True
+save: True
+model_save_name: 'new.model'
+test: True
+load: False
+model_load_name: 'new.model'
