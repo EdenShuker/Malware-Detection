@@ -1,0 +1,9 @@
+main_dir: '/home/user/Desktop/Malware_data'
+first_n_byte: 2000000
+lr: 0.001
+num_epochs: 3
+labels: 'labels.txt'
+labels2dir: '../data/label2dir.csv'
+batch: 32
+workers: 10
+conf_mat: True
